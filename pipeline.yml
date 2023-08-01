@@ -1,3 +1,4 @@
+steps:
 - task: AzureCLI@2
   inputs:
     azureSubscription: 'Actum Apollo(b83e9f04-599c-40de-9a24-f0654dc740ef)'
