@@ -1,0 +1,6 @@
+- task: AzureCLI@2
+  inputs:
+    azureSubscription: 'Actum Apollo(b83e9f04-599c-40de-9a24-f0654dc740ef)'
+    scriptType: 'ps'
+    scriptLocation: 'inlineScript'
+    inlineScript: 'az ad sp create-for-rbac --name GitHub-ivanactum-Actions --role Contributor --scopes /subscriptions/b83e9f04-599c-40de-9a24-f0654dc740ef --sdk-auth'
